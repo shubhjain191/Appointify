@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medical Cross Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Circular Background -->
+    <circle cx="30" cy="30" r="28" fill="#F87027"/>
+    
+    <!-- Medical Cross -->
+    <rect x="26" y="15" width="8" height="30" rx="2" fill="white"/>
+    <rect x="15" y="26" width="30" height="8" rx="2" fill="white"/>
+  </g>
+  
+  <!-- Text "Appointify" -->
+  <g transform="translate(85, 48)">
+    <text font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#F87027">
+      Appointify
+    </text>
+    <!-- Tagline -->
+    <text x="2" y="20" font-family="Arial, sans-serif" font-size="12" fill="#666">
+      Healthcare Scheduling Made Simple
+    </text>
+  </g>
+  
+  <!-- Pulse Line Decoration -->
+  <path d="M250 30 L260 30 L265 15 L270 45 L275 30 L285 30" 
+        stroke="#F87027" 
+        stroke-width="2" 
+        fill="none"/>
+</svg>
