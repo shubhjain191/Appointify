@@ -56,8 +56,8 @@ const Doctors = () => {
                   <img src={item.image || "/placeholder.svg"} alt="" className="w-full h-52 object-cover bg-blue-50"/>
                   <div className="absolute top-4 left-4">
                     <div className="flex items-center gap-1 bg-white/95 px-3 py-1 rounded-full shadow-sm">
-                      <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-                      <p className="text-xs text-green-600 font-medium">Available</p>
+                    <div className={`w-1.5 h-1.5 ${item.available ? 'bg-green-500' : 'bg-red-500'}  rounded-full`}></div>  {/* Green dot indicating availability */}
+                    <p className={`text-xs ${item.available ? 'text-green-600' : 'text-red-500'}  font-medium`}>{item.available ? 'Available' : 'Unavailable'}</p>
                     </div>
                   </div>
                 </div>

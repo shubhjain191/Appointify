@@ -106,7 +106,7 @@ export const doctors = [
             image: doc2,
             speciality: 'Gynecologist',
             degree: 'MBBS, MS, DNB',
-            experience: '12 Years',
+            experience: '2 Years',
             about: 'Dr. Malhotra is known for her expertise in womens health and reproductive medicine. She specializes in high-risk pregnancies and minimally invasive gynecological procedures, ensuring comprehensive care for her patients.',
             fees: 1200,
             address: {
@@ -146,11 +146,11 @@ export const doctors = [
             _id: 'doc5',
             name: 'Dr. Sarah Mitchell',
             image: doc5,
-            speciality: 'Neurologist',
+            speciality: 'Pediatricians',
             degree: 'MBBS, MD, DM',
-            experience: '15 Years',
+            experience: '1 Years',
             about: 'Dr. Mitchell is an expert in treating complex neurological disorders. Her research-based approach and extensive experience help in managing various neurological conditions effectively.',
-            fees: 2000,
+            fees: 500,
             address: {
                 line1: '789 Madison Avenue',
                 line2: 'New York, NY'
@@ -162,9 +162,9 @@ export const doctors = [
             image: doc6,
             speciality: 'Gastroenterologist',
             degree: 'MBBS, MD, DM',
-            experience: '11 Years',
+            experience: '5 Years',
             about: 'Dr. Sharma specializes in digestive health and gastrointestinal disorders. His expertise includes advanced endoscopic procedures and management of complex GI conditions.',
-            fees: 1800,
+            fees: 1000,
             address: {
                 line1: 'Juhu Beach Road',
                 line2: 'Mumbai, Maharashtra'
@@ -176,9 +176,9 @@ export const doctors = [
             image: doc7,
             speciality: 'General physician',
             degree: 'MBBS, DNB',
-            experience: '7 Years',
+            experience: '10 Years',
             about: 'Dr. Anderson focuses on holistic healthcare and preventive medicine. His patient-centered approach emphasizes lifestyle modifications and comprehensive health management.',
-            fees: 700,
+            fees: 1500,
             address: {
                 line1: '567 Beverly Hills Drive',
                 line2: 'Los Angeles, CA'
@@ -190,7 +190,7 @@ export const doctors = [
             image: doc8,
             speciality: 'Gynecologist',
             degree: 'MBBS, DGO, MD',
-            experience: '14 Years',
+            experience: '4 Years',
             about: 'Dr. Desai specializes in reproductive endocrinology and infertility treatments. Her expertise includes advanced laparoscopic surgeries and high-risk obstetric care.',
             fees: 1400,
             address: {
@@ -204,7 +204,7 @@ export const doctors = [
             image: doc9,
             speciality: 'Dermatologist',
             degree: 'MBBS, DVD',
-            experience: '8 Years',
+            experience: '6 Years',
             about: 'Dr. Parker combines aesthetic dermatology with clinical expertise. He specializes in both medical and cosmetic dermatology, offering comprehensive skin care solutions.',
             fees: 1300,
             address: {
@@ -218,7 +218,7 @@ export const doctors = [
             image: doc10,
             speciality: 'Pediatricians',
             degree: 'MBBS, MD Pediatrics',
-            experience: '10 Years',
+            experience: '6 Years',
             about: 'Dr. Mehta specializes in pediatric critical care and developmental disorders. His gentle approach and expertise make him a trusted choice for child healthcare.',
             fees: 1000,
             address: {
@@ -232,9 +232,9 @@ export const doctors = [
             image: doc11,
             speciality: 'Neurologist',
             degree: 'MBBS, DM Neurology',
-            experience: '13 Years',
+            experience: '2 Years',
             about: 'Dr. Roberts is known for her expertise in treating neurological disorders and stroke management. Her approach combines clinical excellence with compassionate care.',
-            fees: 1700,
+            fees: 700,
             address: {
                 line1: '432 Park Avenue',
                 line2: 'Seattle, WA'
@@ -246,7 +246,7 @@ export const doctors = [
             image: doc12,
             speciality: 'Gastroenterologist',
             degree: 'MBBS, MD, DM',
-            experience: '12 Years',
+            experience: '6 Years',
             about: 'Dr. Kumar specializes in advanced endoscopy and therapeutic procedures. His expertise covers a wide range of digestive system disorders and their management.',
             fees: 1600,
             address: {
@@ -288,7 +288,7 @@ export const doctors = [
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '6 Years',
         about: 'Dr. Hill has a strong commitment to delivering comprehensive skin, hair, and nail health, they diagnose and treat issues like acne, eczema, and skin cancer for improved appearance and health.',
         fees: 800,
         address: {
